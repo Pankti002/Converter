@@ -1,0 +1,53 @@
+html
+ {
+    position: relative;
+    min-height: 100%;
+}
+
+body
+ {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.bottom
+ {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+}
+/* body{
+    position: relative;
+    min-height: 100%;
+    min-height: 100vh;
+} */
+marquee{ 
+    height: 43px;
+    font-size: 30px;
+    background: #ffc1cc;
+    color: #000080;
+ } 
+/* .bottom
+{   
+    position: absolute;
+    right: 0;
+    bottom:0;
+    left:0;
+    color: white;
+    background-color:#008080;
+}  */
+/*{
+    /* position: relative;
+    bottom: 0;
+    margin-top: auto;
+    bottom: 0px;
+    color: white;
+    background-color:#008080;
+    height: 80px;
+    width: 100%;  
+    top:100%; 
+    position: fixed;
+}*/
